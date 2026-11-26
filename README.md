@@ -11,7 +11,7 @@
 แอปพลิเคชันเว็บพัฒนาด้วย Python (Flask) รันผ่าน Docker Container สามารถรับข้อความจากหน้าฟอร์มผ่าน **HTTP POST** และบันทึกข้อมูลต่อท้ายลงในไฟล์ `log.txt` (Append mode `'a'`) พร้อมแสดงประวัติการบันทึกบนหน้าเว็บ
 
 ## วิธีการรันโปรเจกต์
-```bash
+
 cd flask-post-log
 docker compose up --build -d
 
